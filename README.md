@@ -20,17 +20,26 @@ DiscoGENE is a Streamlit-based web application designed to retrieve and analyze 
 ### Setting up the Environment
 1. **Clone the Repository**:
    ```bash
-   git clone https://https://github.com/nikolatom/DiscoGene.git
+   git clone https://github.com/yourusername/DiscoGENE.git
    cd DiscoGENE
    ```
 
-2. **Create a Python Virtual Environment**:
+2. **Create a Python Virtual Environment (optional)**:
    ```bash
    python -m venv env
    source env/bin/activate
    ```
 
-3. **Install Required Python Packages**:
+3. **Alternative: Set Up a Conda Environment**:
+   ```bash
+   # Create the Conda environment at the specified directory
+   mamba create --prefix ./env_DiscoGene python=3.12
+
+   # Activate the environment using its path
+   conda activate ./env_DiscoGene
+   ```
+
+4. **Install Required Python Packages**:
    ```bash
    pip install -r requirements.txt
    ```
